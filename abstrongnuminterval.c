@@ -19,13 +19,9 @@ int main()
         {
             remainder = temp2 % 10;
             result += pow(remainder, n);
-            temp2 /= 10;
-        }
+            temp2 /= 10;}
         if (result == i) {
-            printf("%d ", i);
-        }
+            printf("%d ", i);}
         n = 0;
-        result = 0;
-    }
-    return 0;
-}
+        result = 0;}
+    return 0;}
